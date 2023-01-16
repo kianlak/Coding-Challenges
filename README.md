@@ -13,7 +13,7 @@ This is a repository to store my attempts of solving problems and then analyzing
 - Learned that use of Regex is actually very inefficient for memory optimizations due to it's backtracking nature
 - Only use regex for specific patterns over more broad patterns
 
-## Stack
+## 📚 Stack
 ### 20. Valid Parentheses
 - My runtime and memory wasn't great due to creating a class from scratch for the Stack
 - We can imitate the behaviour of a Stack with a list to get better runtimes (This can be done with append() which acts as push, and the inbuilt pop())
