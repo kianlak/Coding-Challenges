@@ -17,3 +17,9 @@ This is a repository to store my attempts of solving problems and then analyzing
 #### 20. Valid Parentheses
 - My runtime and memory wasn't great due to creating a class from scratch for the Stack, however the logic is optimal
 - We can imitate the behaviour of a Stack with a list to get better runtimes (This can be done with append() which acts as push, and the inbuilt pop())
+
+## 🪟 Sliding Window
+#### 121. Best Time to Buy and Sell Stock
+- My previous solution for this problem had correct logic but made use of a nested for-loop which was not necessary at all, this resulted in a Runtime Error for much larger data inputs (Current solution for this problem is mostly copied from another persons solution, with some minor runtime improvement)
+- I generally have a bad habit of defaulting to for-loops to solve problems that require going through a list, this habit is not good especially when I need to be able to access two different points for comparison
+- If possible always attempt to create logic for going through a list or an array at O(n), some instances the logic is too complex to be able to make this possible, this is not one of those problems
