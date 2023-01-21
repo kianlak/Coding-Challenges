@@ -23,3 +23,7 @@ This is a repository to store my attempts of solving problems and then analyzing
 - My previous solution for this problem had correct logic but made use of a nested for-loop which was not necessary at all, this resulted in a Runtime Error for much larger data inputs (Current solution for this problem is mostly copied from another persons solution, with some minor runtime improvement)
 - I generally have a bad habit of defaulting to for-loops to solve problems that require going through a list, this habit is not good especially when I need to be able to access two different points for comparison
 - If possible always attempt to create logic for going through a list or an array at O(n), some instances the logic is too complex to be able to make this possible, this is not one of those problems
+
+## 🌳 Trees
+#### 226. Invert Binary Tree
+- Originally I had written out several assignments and included a temp value for a swap, however I could recursively assign the values into their respective swaps to make runtime a little faster
