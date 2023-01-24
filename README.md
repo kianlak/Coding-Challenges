@@ -1,12 +1,17 @@
 # 💻 Coding Problems
-This is a repository to store my attempts of solving problems and then analyzing them for improvements
-
+This is a repository to store my attempts of solving problems and then analyzing them for improvements.
+#### I also make sure to explain all my work inside their respective markdown files.
+#
 # 🧠 What I've learned from Leetcode challenges
 ## #️⃣ Arrays & Hashing
 #### 217. Contains Duplicate Leetcode
 - Learned about Python's set object which makes use of a hash table
 - Set using Hash Tables uses fixed amount of memory beforehand which is more memory efficient than a list which needs to allocate memory for each new element
 - Since we need to continuously check every new element we get to, set makes it easier and more efficient to search through it
+
+#### 242. Valid Anagram
+- Learned about the collection.defaultdict type, it's a dictionary that avoids KeyError from happening if a key were to not exist (For both inserts and searches)
+- collection.defaultdict is perfect for this problem as we can just insert and check new keys and their values without needing there to be a pre-existing key
 
 ## 📍Two Pointers
 #### 125. Valid Palindrome
