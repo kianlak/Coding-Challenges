@@ -13,6 +13,9 @@ This is a repository to store my attempts of solving problems and then analyzing
 - Learned about the collection.defaultdict type, it's a dictionary that avoids KeyError from happening if a key were to not exist (For both inserts and searches)
 - collection.defaultdict is perfect for this problem as we can just insert and check new keys and their values without needing there to be a pre-existing key
 
+#### 347. Top K Frequent Elements
+- I learned that for smaller data inputs, Big-O doesn't matter as much and we can see it clearly for my solution for this problem. I have an O(nlog(n)) solution for 347, however a O(n) solution on LeetCodes compiler has a greater runtime than my O(nlog(n)) solution
+
 ## 📍Two Pointers
 #### 125. Valid Palindrome
 - Learned that use of Regex is actually very inefficient for memory optimizations due to it's backtracking nature
